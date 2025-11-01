@@ -1,9 +1,39 @@
-root {
-  /* CSS HEX */
+:root {
   --gray: #7b7b7b;
   --medium-slate-blue: #8264e7;
   --silver: #c6c6c7;
   --silver-2: #aaaaaa;
   --night: #121212;
   --white: #f7f7f8
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--white);
+}
+
+.gray {
+  background-color: var(--gray);
+}
+
+.blue {
+  background-color: var(--medium-slate-blue);
+}
+
+.silver {
+  background-color: var(--silver);
+}
+
+.silver2 {
+  background-color: var(--silver-2);
+}
+
+.black {
+  background-color: var(--night);
+}
+
+.white {
+  background-color: var(--white);
 }
