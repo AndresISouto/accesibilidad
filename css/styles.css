@@ -1,3 +1,59 @@
+@font-face {
+  font-family: "popins";
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "popins";
+  src: url(../fonts/poppins/Poppins-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "popins";
+  src: url(../fonts/poppins/Poppins-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat/static/Montserrat-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: palette;
+  src: url(../fonts/PaletteMosaic-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
 :root {
   --gray: #7b7b7b;
   --medium-slate-blue: #8264e7;
@@ -12,22 +68,39 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: var(--white);
+  font-family: poppins;
+  font-size: 16px;
 }
 
-nav {
-  height: 60px;
+h1,
+h2,
+h3,
+h4 {
+  font-family: montserrat;
+  margin: 1rem;
+  padding: 1rem;
 }
 
-#carouselExampleRide {
-  margin-top: 60px;
+p {
+  margin: 0, 5rem;
+  padding: 0.5rem;
 }
 
-.imgCarousel {
-  width: 100vw;
-  height: auto;
-  object-fit: cover;
+h1 {
+  font-size: 2.5 rem;
 }
 
+h2 {
+  font-size: 2 rem;
+}
+
+h3 {
+  font-size: 1.5 rem;
+}
+
+h4 {
+  font-size: 1.25 rem;
+}
 
 .gray {
   background-color: var(--gray);
@@ -51,4 +124,22 @@ nav {
 
 .white {
   background-color: var(--white);
+}
+
+
+nav {
+  height: 60px;
+}
+
+#carouselExampleRide {
+  margin-top: 60px;
+}
+
+.imgCarousel {
+  height: calc(100vh - 60px);
+  width: 100vw;
+}
+
+.cryptic {
+  font-family: palette;
 }
