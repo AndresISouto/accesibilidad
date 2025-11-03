@@ -143,3 +143,8 @@ nav {
 .cryptic {
   font-family: palette;
 }
+
+.cardImg {
+  height: 40vh;
+  width: 100%;
+}
