@@ -34,79 +34,137 @@
     </div>
   </nav>
 
-  <div id="carouselExampleRide" class="carousel slide " data-bs-ride="true">
-    <div class="carousel-inner vh-100">
-      <div class="carousel-item active vh-100">
-        <img src="multimedia/img/carousel1.jpg" d-block w-100" alt="imagen de fondo sobre accesibilidad"
-          class="imgCarousel">
+  <header>
+    <div id="carouselExampleRide" class="carousel slide " data-bs-ride="true">
+      <div class="carousel-inner vh-100">
+        <div class="carousel-item active vh-100">
+          <img src="multimedia/img/carousel1.jpg" d-block w-100" alt="imagen de fondo sobre accesibilidad"
+            class="imgCarousel">
+        </div>
+        <div class="carousel-item">
+          <img src="multimedia/img/carousel2.jpg" class="d-block w-100" alt="imagen de fondo sobre accesibilidad"
+            class="imgCarousel">
+        </div>
+        <div class="carousel-item">
+          <img src="multimedia/img/carousel3.jpg" class="d-block w-100" alt="imagen de fondo sobre accesibilidad"
+            class="imgCarousel">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="multimedia/img/carousel2.jpg" class="d-block w-100" alt="imagen de fondo sobre accesibilidad"
-          class="imgCarousel">
-      </div>
-      <div class="carousel-item">
-        <img src="multimedia/img/carousel3.jpg" class="d-block w-100" alt="imagen de fondo sobre accesibilidad"
-          class="imgCarousel">
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <h1>Antes de empezar...</h1>
-  <p class="cryptic">Es muy posible que no entiendas este texto o de entenderlo te cuete bastante y ese es el punto.
-    Seguro que existe gente que te justifique que se entiende perfectamente pero para la gran mayoría de mortales ese no
-    es el caso...</p>
-  <p>No pasa nada si no eres capaza de leer lo que pone arriba, esto es solo una demostración de como algunos usuarios
-    pueden percivir tu página de no estar correctamente acomodada a criterios de accesivilidad, y que quiere decir esto?
-    significa que tus páginas web deberán de estar adecuadas a todo tipo de usuarios para evitar que partes de la misma
-    le resulten inteligibles a tus usuarios o no sean capaces de interactuar con ellas. Pero no te preocupes, quedate
-    aquí y descubre todo lo que puedes hacer para mejorar la accesibilidad de tus interfaces web y todo lo relacionado
-    con las normas WCAG!!!</p>
-
-  <h2 class="text-center">Existe una gran variedad de cosas que podemos hacer:</h2>
-  <section class="container ">
-    <div class="row ">
-      <div class="col-12 col-md-6 "><img src="multimedia/img/section12.png" alt="imagen sobre accesibilidad"
-          class="w-100 h-75 border rounded"></div>
-      <div class="col-12 col-md-6 "><img src="multimedia/img/section11.png" alt="imagen sobre accesibilidad"
-          class="w-100 h-75 border rounded"></div>
-    </div>
+  </header>
+  <main>
+    <h1>Antes de empezar...</h1>
+    <p class="cryptic">Es muy posible que no entiendas este texto o de entenderlo te cuete bastante y ese es el punto.
+      Seguro que existe gente que te justifique que se entiende perfectamente pero para la gran mayoría de mortales ese
+      no
+      es el caso...</p>
+    <p>No pasa nada si no eres capaza de leer lo que pone arriba, esto es solo una demostración de como algunos usuarios
+      pueden percivir tu página de no estar correctamente acomodada a criterios de accesivilidad, y que quiere decir
+      esto?
+      significa que tus páginas web deberán de estar adecuadas a todo tipo de usuarios para evitar que partes de la
+      misma
+      le resulten inteligibles a tus usuarios o no sean capaces de interactuar con ellas. Pero no te preocupes, quedate
+      aquí y descubre todo lo que puedes hacer para mejorar la accesibilidad de tus interfaces web y todo lo relacionado
+      con las normas WCAG!!!</p>
+  </main>
+  <section>
+    <h2 class="text-center">Existe una gran variedad de cosas que podemos hacer:</h2>
+    <article class="container ">
+      <div class="row ">
+        <div class="col-12 col-md-6 "><img src="multimedia/img/section12.png" alt="imagen sobre accesibilidad"
+            class="w-100 h-75 border rounded"></div>
+        <div class="col-12 col-md-6 "><img src="multimedia/img/section11.png" alt="imagen sobre accesibilidad"
+            class="w-100 h-75 border rounded"></div>
+      </div>
+    </article>
   </section>
-  <section class="d-flex justify-content-center align-items-center gap-5">
-    <div class="card" style="width: 18rem;">
+
+  <section class="d-flex justify-content-center align-items-center gap-5 mx-5">
+    <div class="card cards d-flex flex-column flex-grow-1" style="width: 18rem;">
       <img src="multimedia/img/w3c.png" class="card-img-top cardImg" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Introducción a la accesibilidad web</h5>
+        <p class="card-text">Cuando los sitios y herramientas web están bien diseñados y codificados, las personas con
+          discapacidad pueden utilizarlos. Sin embargo, en la actualidad muchos sitios y herramientas están
+          desarrollados incluyendo barreras de accesibilidad que dificultan o imposibilitan su uso por parte de algunas
+          personas.</p>
+        <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/es" class="btn btn-primary">Ver más</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card cards d-flex flex-column flex-grow-1" style="width: 18rem;">
       <img src="multimedia/img/mdnLogo.webp" class="card-img-top cardImg" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card-body ">
+        <h5 class="card-title">Documentción acccesibilidad</h5>
+        <p class="card-text">La accesibilidad web (a menudo abreviada como A11y — como "a", luego 11 caracteres, y luego
+          "y") se refiere a la posibilidad de acceso a los diferentes sitios web y a todo su contenido por todas las
+          personas, independientemente de sus limitaciones físicas (discapacidad) o las derivadas del contexto de uso
+          (tecnológicas o ambientales)...</p>
+        <a href="https://developer.mozilla.org/es/docs/Web/Accessibility" class="btn btn-primary">Ver más</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card cards d-flex flex-column flex-grow-1" style="width: 18rem;">
       <img src="multimedia/img/hostinger-logo.png" class="card-img-top cardImg" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Mejores prácticas</h5>
+        <p class="card-text">La accesibilidad web se refiere a proporcionar igualdad de acceso a tus contenidos y
+          servicios, independientemente de la condición de discapacidad del usuario que visita tu web.
+          Al establecer confianza y mejorar la experiencia del usuario, aumentarás tu audiencia y construirás una imagen
+          de marca más fuerte y confiable.</p>
+        <a href="https://www.hostinger.com/es/tutoriales/accesibilidad-web" class="btn btn-primary">Ver más</a>
       </div>
     </div>
   </section>
+  <section>
+    <h2>Si tienes cualquier duda solo preguntanos!</h2>
+    <form class="p-3 m-3">
+      <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleInputName">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Deja aquí tu pregunta" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comments</label>
+      </div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
