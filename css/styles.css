@@ -127,12 +127,14 @@ h4 {
 }
 
 
-#carouselExampleRide {
+#carouselExampleRide,
+.hero {
   margin-top: 56px;
 }
 
-.imgCarousel {
-  height: calc(100vh - 60px);
+.imgCarousel,
+.hero {
+  height: calc(100vh - 56px);
   width: 100vw;
 }
 
