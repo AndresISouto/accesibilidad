@@ -140,37 +140,42 @@
   <!-- Formulario de contacto -->
   <section>
     <h2>Si tienes cualquier duda solo preguntanos!</h2>
-    <form class="p-3 m-3">
-      <div class="mb-3">
-        <label for="exampleInputName" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="exampleInputName">
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      </div>
-      <div class="form-floating">
-        <label for="floatingTextarea"></label>
-        <textarea class="form-control" placeholder="Deja aqui tu comentario..." id="floatingTextarea"></textarea>
-        <!-- <label for="floatingTextarea">Comments</label> -->
-      </div>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Enviar
-      </button>
+    <article class="container">
+      <div class="row justify-content-center">
+        <form class="p-3 m-3 col-6">
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputName">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-floating">
+            <label for="floatingTextarea"></label>
+            <textarea class="form-control" placeholder="Deja aqui tu comentario..." id="floatingTextarea"></textarea>
+            <!-- <label for="floatingTextarea">Comments</label> -->
+          </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Enviar
+          </button>
 
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 blackText" id="exampleModalLabel">Gracias por tu pregunta!</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 blackText" id="exampleModalLabel">Gracias por tu pregunta!</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
-    </form>
+    </article>
   </section>
   <!-- Footer -->
   <footer class="container-fluid black">
